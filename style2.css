@@ -3,44 +3,17 @@
                     padding: 0;
                     font-family: 'Nova Mono', monospace;
                     ;
-                    box-sizing: border-box;
+                    background-color: rgb(29, 26, 26);
                 }
                 
                 .container {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    height: 100vh;
-                    animation: animate 16s ease-in-out infinite;
-                    background-size: cover;
+                    height: 100vh;;
                 }
                 
-                @keyframes animate {
-                    0% {
-                        background-image: url(./swanqueen/01.png);
-                    }
-                    10% {
-                        background-image: url(./swanqueen/02.png);
-                    }
-                    20% {
-                        background-image: url(./swanqueen/03.png);
-                    }
-                    30% {
-                        background-image: url(./swanqueen/04.png);
-                    }
-                    40% {
-                        background-image: url(./swanqueen/05.png);
-                    }
-                    50% {
-                        background-image: url(./swanqueen/06.png);
-                    }
-                    60% {
-                        background-image: url(./swanqueen/07.png);
-                    }
-                    100% {
-                        background-image: url(./swanqueen/08.png);
-                    }
-                }
+               
                 
                 .container {
                     width: 100%;
